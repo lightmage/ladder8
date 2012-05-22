@@ -1,0 +1,11 @@
+@font-face
+{
+  font-family: 'MolotRegular';
+  src: asset-url('Molot-webfont.eot', font);
+  src: asset-url('Molot-webfont.eot?#iefix', font) format('embedded-opentype'),
+    asset-url('Molot-webfont.woff', font) format('woff'),
+    asset-url('Molot-webfont.ttf', font) format('truetype'),
+    asset-url('Molot-webfont.svg#MolotRegular', font) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

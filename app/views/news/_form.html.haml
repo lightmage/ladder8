@@ -1,0 +1,17 @@
+- if @news.errors.any?
+  .alert.alert-error
+    %strong News can not be saved as...
+    %ul
+      - @news.errors.full_messages.each do |error|
+        %li= error
+
+= form_for @news do |f|
+  %fieldset.well
+    = f.label :title, 'Title *'
+    = f.text_field :title, :class => bootstrap_large_input
+    = f.label :body, 'Body *'
+    = f.text_area :body, :class => bootstrap_large_input
+    %p.help-block
+      = link_to_textile
+      markup can be used in body.
+  .well.last= f.submit :class => bootstrap_submit_classes

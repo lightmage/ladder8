@@ -1,0 +1,17 @@
+= bootstrap_search_form players_path do
+  - with_options :autocomplete => 'off', :class => bootstrap_search_classes do |input|
+    = label_tag 'search[players]', 'Players'
+    = input.text_field_tag 'search[players]', search_param(:players)
+
+    = label_tag 'search[country]', 'Country'
+    = input.select_tag 'search[country]', options_for_country(search_param(:country)), :include_blank => true
+
+    = label_tag 'search[time_limit]', 'Active in last'
+    = input.select_tag 'search[time_limit]', options_for_time_limit(search_param(:time_limit)), :include_blank => true
+
+  = submit_tag 'Reset', :class => bootstrap_reset_classes(true), :type => 'reset'
+  = submit_tag 'Show', :class => bootstrap_submit_classes(true)
+
+  %p.help-block
+    %i.icon-warning-sign
+    Searching by nickname will look for ranked as well as unranked players.

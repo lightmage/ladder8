@@ -1,0 +1,34 @@
+= bootstrap_page_header 'Ladder Standings'
+= background_image
+
+= bootstrap_short_row do
+  = render 'search'
+
+  - unless @players.empty?
+    = bootstrap_table do
+      %tr
+        %th.small Rank
+        %th Player
+        %th.small Country
+        %th.small Rating
+        %th.small Last action
+      - @players.each_with_index do |player, index|
+        %tr
+          %td= link_to rank_for_index(index), player
+          %td= player_link player
+          %td= link_to flag_for(player), player
+          %td= link_to formatted_rating(player.rating), player
+          %td= link_to player_action_date(player), player
+    = will_paginate @players
+
+  - else
+    .alert.alert-info
+      There are no players matching criteria.
+
+  - unless @newcomers.empty?
+    .well
+      %i.icon-fire
+      %b Newcomers
+      %br/
+      - for player in @newcomers
+        = player_link player

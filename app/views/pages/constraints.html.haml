@@ -1,0 +1,29 @@
+= bootstrap_page_header 'Constraints'
+= background_image
+
+= bootstrap_short_row do
+  .alert.alert-info
+    Ladder8 does some work behind the scenes. Because of that you have to obey few simple
+    rules or otherwise game reports will be rejected. Those are mainly technical limitations
+    and nothing could be done if you will fail to fulfill them.
+
+  .well
+    %ol
+      %li
+        %h4 Play using registered nick
+        %p
+          In ladder games you can only use nick that is registered on official forums, no extra characters are allowed.
+          If you need second login use nickname with differend cappitalization as games played using such nicks can be reported as well.
+      %li
+        %h4 Game replay has to exist in replay archive
+        %p Because of that you will only be able to report games played on official server with observers allowed.
+      %li
+        %h4 Play only valid maps
+        %p Those are all mainline 1v1 and 2v2 maps plus maps avaiable in RBY add-on:
+        %p= non_breaking @maps
+      %li
+        %h4 Play only valid eras
+        %p= non_breaking Game::VALID_ERAS
+      %li
+        %h4 Don't use RMP
+        %p Its not compatible with Ladder8.

@@ -1,0 +1,22 @@
+= bootstrap_search_form games_path do
+  - with_options :autocomplete => 'off', :class => bootstrap_search_classes, :placeholder => 'All' do |input|
+    = label_tag 'search[players', 'Players'
+    = input.text_field_tag 'search[players]', search_param(:players)
+
+    = label_tag 'search[factions]', 'Factions'
+    = input.text_field_tag 'search[factions]', search_param(:factions)
+
+    = label_tag 'search[leaders]', 'Leaders'
+    = input.text_field_tag 'search[leaders]', search_param(:leaders)
+
+    = label_tag 'search[maps]', 'Maps'
+    = input.text_field_tag 'search[maps]', search_param(:maps)
+
+  = submit_tag 'Reset', :class => bootstrap_reset_classes(true), :type => 'reset'
+  = submit_tag 'Search', :class => bootstrap_submit_classes(true)
+
+  %p.help-block
+    %i.icon-warning-sign
+    Fields are joined using AND and values using OR (as you can specify coma separated list of values for each field).
+    = link_to 'Feed', game_feed_options
+    for current criteria.

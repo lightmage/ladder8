@@ -1,0 +1,71 @@
+- content_for :header do
+  %h1.page-header.player-header
+    = avatar_for @player, true
+    = content_for :title, @player
+    = @player
+= background_image @player.background_filename
+
+= bootstrap_short_row do
+  - if admin? or @player.ranked?
+    .padded-item
+      = player_games_button if @player.ranked?
+      = bootstrap_admin_link_button 'lock', 'Edit Player', edit_player_path(@player) if admin?
+
+  .well
+    %i.icon-signal
+    Rating
+    %b= formatted_rating @player.rating
+    %i.icon-star
+    All
+    %b= link_to formatted_rank(@player.general_rank), players_path
+    %i.icon-star-empty
+    Country
+    %b= link_to formatted_rank(@player.country_rank), players_path('search[country]' => @player.country)
+    %i.icon-play-circle
+    Games
+    %b= link_to @player.games.confirmed.count, games_path('search[players]' => @player.nick)
+
+  .well
+    - if @player.country?
+      = flag_for @player
+      = Country.find @player.country
+    %i.icon-cog
+    Timezone
+    %b= @player.timezone
+    %i.icon-time
+    Local time
+    %b= @player.local_time(Time.now).to_s :long_ordinal
+    %br/
+    %i.icon-user
+    Joined
+    %b= time_ago_in_words @player.created_at
+    ago
+    %i.icon-off
+    Last action
+    %b= local_time(@player.updated_at.to_time).to_s :long_ordinal
+
+    - unless @player.games.unconfirmed.empty?
+      %br/
+      %br/
+      .unconfirmed-games
+        %i.icon-check
+        Games awaiting confirmation
+      %ol
+        - for game in @player.games.unconfirmed
+          %li
+            = link_to game, game
+            Players
+            - for player in game.players
+              = player_link player
+
+  - if @player.ranked?
+    .well
+      #chart-container
+
+  - if current_player?
+    - if @player.description?
+      .well.last= textile @player.description
+
+    = comments_partial @player, false, true
+  - else
+    = restricted_block

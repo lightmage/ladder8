@@ -1,0 +1,22 @@
+= comments_div hide do
+
+  - for comment in comments
+    .last.well.comment
+      = conditional_comment_destroy_link object, comment
+      .author
+        = player_link comment.player
+        = time_ago_in_words comment.created_at
+        ago wrote
+      .body
+        = textile comment.body
+      -if comment.player.signature?
+        .signature=comment.player.signature
+
+  = form_tag [object, 'comments'] do
+    %fieldset.well.last
+      = text_area_tag :body, '', :class => bootstrap_large_input
+      %p.help-block
+        = link_to_textile
+        markup can be used in comments.
+      %br/
+      = submit_tag 'Post Comment', :class => bootstrap_submit_classes

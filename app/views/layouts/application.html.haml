@@ -1,0 +1,61 @@
+!!!
+%html{:lang => 'en'}
+  %head
+    %title= yield :title
+    %meta{:charset => "utf-8"}/
+    %meta{:name => 'author', :content => 'Space Lord Q'}/
+    %meta{:name => 'description', :content => 'The most awesome Wesnoth ladder ever...'}/
+    = favicon_link_tag
+    = csrf_meta_tags
+    = bootstrap_ie_html_shim
+    = javascript_include_tag 'application', 'bootstrap.min', 'highcharts.min', 'jquery.observe_field'
+    = stylesheet_link_tag 'application', 'bootstrap.min'
+    = seasonal_background
+    = content_for :background
+    = content_for :feed
+  %body
+    = bootstrap_header do
+      = link_to 'Ladder8', root_path, :class => 'brand'
+      .nav-collapse
+        %ul.nav
+          %li= link_to 'Ladder Standings', players_path('search[time_limit]' => 93)
+          %li= link_to 'Game History', games_path
+          %li= link_to 'Recent News', news_index_path
+        %ul.nav.pull-right
+          - unless current_player?
+            %li.divider-vertical
+            %li= link_to 'Log In', '#modal-login', 'data-toggle' => 'modal'
+            %li.divider-vertical
+            %li= link_to 'Sign Up', new_player_path
+            %li.divider-vertical
+          - else
+            %li.divider-vertical
+            %li= link_to 'Report Game', '#modal-report', 'data-toggle' => 'modal'
+            %li.divider-vertical
+            %li.dropdown
+              = bootstrap_dropdown_link
+              %ul.dropdown-menu
+                %li= link_to 'Edit Preferences', edit_player_path(@current_player)
+                %li= link_to 'Show Profile', @current_player
+                %li.divider
+                %li= link_to 'Log Out', logout_path
+            %li.divider-vertical
+    %section.container
+      = render 'security/login' unless current_player?
+      = render 'games/report' if current_player?
+      - if content_for? :long_header
+        = content_for :long_header
+        = conditional_notice_div
+      - else
+        = bootstrap_short_row do
+          = content_for :header
+          = conditional_notice_div
+      = yield
+    %footer.container
+      .actions
+        .information
+          = link_to 'Constraints', constraints_path
+          = link_to 'FAQ', faq_path
+        .navigation
+          %i.icon-upload
+          = link_to 'scroll to top', '#top'

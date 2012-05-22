@@ -1,0 +1,1174 @@
+--- 
+Falco: 
+  :mean: 30.240393091482
+  :deviation: 1.7408217029314
+bluepierrot: 
+  :mean: 27.467195580415
+  :deviation: 1.229945865961
+BloodHoarde: 
+  :mean: 29.543306084249
+  :deviation: 2.8853739495542
+bluelite: 
+  :mean: 29.030192550221
+  :deviation: 2.3414787360356
+kodoku: 
+  :mean: 32.914499520902
+  :deviation: 2.5256772211899
+solaris: 
+  :mean: 29.092185921733
+  :deviation: 1.3692575283606
+wtf_is_this: 
+  :mean: 26.210184123508
+  :deviation: 1.4818240692722
+CragHack: 
+  :mean: 27.654690995475
+  :deviation: 1.3219518700322
+Berez: 
+  :mean: 29.270207671289
+  :deviation: 1.2009535006812
+Ariu: 
+  :mean: 29.697316839862
+  :deviation: 1.2259967656056
+Shorty: 
+  :mean: 26.56060986876
+  :deviation: 1.2120662425109
+Jeronym: 
+  :mean: 24.070685860121
+  :deviation: 1.1844464040758
+DrakeKing: 
+  :mean: 31.224369912007
+  :deviation: 1.14032919133
+olyve: 
+  :mean: 27.578083781121
+  :deviation: 1.3617168146602
+Weeksy: 
+  :mean: 27.579639358709
+  :deviation: 2.0813671859078
+svek: 
+  :mean: 33.610138532581
+  :deviation: 1.1462454198238
+TheOne: 
+  :mean: 33.174458911082
+  :deviation: 1.2413867926693
+konflikt_86pl: 
+  :mean: 25.187525731337
+  :deviation: 1.3819770515638
+WesproK: 
+  :mean: 36.743780712196
+  :deviation: 4.2797087082737
+gamelle: 
+  :mean: 29.191700514697
+  :deviation: 1.1719866019247
+salvador: 
+  :mean: 30.070852269843
+  :deviation: 1.2491988610903
+Svarojiz: 
+  :mean: 27.104803484588
+  :deviation: 2.0279247118344
+jason1985: 
+  :mean: 32.126327262107
+  :deviation: 1.1378098542536
+airman: 
+  :mean: 27.553994882584
+  :deviation: 1.3855174957481
+Yoshimitsu: 
+  :mean: 30.508362360868
+  :deviation: 1.5317477296305
+Neuromancer: 
+  :mean: 24.429871186025
+  :deviation: 1.2401050713355
+anoel: 
+  :mean: 24.763106388118
+  :deviation: 1.3175478252619
+wespioneer: 
+  :mean: 28.708907528059
+  :deviation: 2.6299353995315
+Cherub: 
+  :mean: 29.859177911014
+  :deviation: 2.4919581511538
+MoP: 
+  :mean: 26.251844195794
+  :deviation: 1.5254515947069
+Primus_Pilus: 
+  :mean: 34.106423174682
+  :deviation: 1.4060849603127
+chains: 
+  :mean: 28.212244352249
+  :deviation: 1.6164196659533
+enacui: 
+  :mean: 33.289464761301
+  :deviation: 1.1814324373946
+xenon: 
+  :mean: 27.263950522389
+  :deviation: 1.1970325429689
+Asticot: 
+  :mean: 28.40392716281
+  :deviation: 1.3646368188247
+Dredge: 
+  :mean: 30.895435915972
+  :deviation: 1.2218004447794
+Faello: 
+  :mean: 29.505027056057
+  :deviation: 2.3867750314555
+Stenen: 
+  :mean: 30.058843378574
+  :deviation: 1.2454214047128
+Hagbart: 
+  :mean: 30.633775921481
+  :deviation: 1.3100307523965
+Killer595: 
+  :mean: 25.767693834193
+  :deviation: 1.2202046178354
+MiniMilk: 
+  :mean: 31.294514456797
+  :deviation: 3.6677857383831
+Rigor: 
+  :mean: 32.397857666553
+  :deviation: 1.1998303736752
+nobody: 
+  :mean: 25.713510611819
+  :deviation: 1.2692113350195
+forderwind: 
+  :mean: 25.837374713311
+  :deviation: 1.4368267474957
+happymasksalesman: 
+  :mean: 26.054346723855
+  :deviation: 1.2027210829012
+sillenia: 
+  :mean: 26.436361971638
+  :deviation: 1.2001704768546
+Folket: 
+  :mean: 30.905948147602
+  :deviation: 3.3982435429945
+jimmy: 
+  :mean: 26.797560197298
+  :deviation: 2.1896567469005
+Paxe: 
+  :mean: 28.221487123459
+  :deviation: 1.4381787995524
+Kabuto: 
+  :mean: 37.323452182379
+  :deviation: 4.0025663743975
+AlaskanAvenger: 
+  :mean: 24.263251202669
+  :deviation: 1.2412914036765
+Maboul: 
+  :mean: 34.604267169847
+  :deviation: 1.4572104593604
+th4: 
+  :mean: 28.129272557455
+  :deviation: 1.2179406000968
+grizzly: 
+  :mean: 28.241503098226
+  :deviation: 2.6810118327317
+Anarchid: 
+  :mean: 26.175764448293
+  :deviation: 1.5647571244342
+cheshire_cat: 
+  :mean: 27.985251324727
+  :deviation: 1.177577463241
+Meti: 
+  :mean: 29.703149630603
+  :deviation: 3.1930365033984
+WhiteMage: 
+  :mean: 27.148338364474
+  :deviation: 1.5089088119604
+Baufo: 
+  :mean: 30.894297319421
+  :deviation: 2.3544504028608
+Blackadder: 
+  :mean: 29.12689936383
+  :deviation: 2.9292065602781
+nagafono: 
+  :mean: 28.515890660328
+  :deviation: 1.1689881376682
+nilkiimas: 
+  :mean: 25.135490868096
+  :deviation: 1.2174847791382
+Hover: 
+  :mean: 26.071932873295
+  :deviation: 1.9922013299489
+cikumbrikas: 
+  :mean: 26.252578017818
+  :deviation: 1.1917810350321
+Orang: 
+  :mean: 25.673253041003
+  :deviation: 1.1878404045548
+ps7: 
+  :mean: 38.672566596642
+  :deviation: 1.7284345789673
+arnaldo_br: 
+  :mean: 26.2856674241
+  :deviation: 1.46551073238
+Equinox: 
+  :mean: 25.634056873427
+  :deviation: 1.7874988732428
+norrington: 
+  :mean: 26.425558853573
+  :deviation: 2.0412330545504
+CyBiO: 
+  :mean: 26.844839838143
+  :deviation: 1.2085327846052
+Various: 
+  :mean: 30.261894465295
+  :deviation: 1.1742349439483
+sordan: 
+  :mean: 30.084337286288
+  :deviation: 1.2197805099571
+Radament: 
+  :mean: 30.917738980576
+  :deviation: 1.2418795221792
+nelson: 
+  :mean: 30.429873580751
+  :deviation: 1.2658206906733
+Becephalus: 
+  :mean: 32.881753936379
+  :deviation: 1.1521465149902
+Des: 
+  :mean: 27.624612069107
+  :deviation: 1.237920443427
+Feanor: 
+  :mean: 26.455027446731
+  :deviation: 1.1772390240597
+pumpkin: 
+  :mean: 32.859200050431
+  :deviation: 2.0368328302596
+Loser: 
+  :mean: 32.545412403915
+  :deviation: 1.1933593447276
+PaiMei: 
+  :mean: 31.498349954878
+  :deviation: 1.4085006250883
+kobri4ka: 
+  :mean: 28.44128566544
+  :deviation: 2.3676662713798
+BillWallace: 
+  :mean: 24.868991231321
+  :deviation: 1.5172348378993
+Naovy: 
+  :mean: 28.003467832151
+  :deviation: 1.162730429127
+cle: 
+  :mean: 24.716574428079
+  :deviation: 1.1726034438259
+psychic: 
+  :mean: 29.43018731669
+  :deviation: 1.1551885944898
+FET: 
+  :mean: 32.697917897124
+  :deviation: 1.2543964069152
+Noumenon: 
+  :mean: 28.186800830891
+  :deviation: 1.1902737533418
+LichKing: 
+  :mean: 29.315260349507
+  :deviation: 1.1927214573608
+Myos: 
+  :mean: 24.868146977242
+  :deviation: 1.2202811902655
+hfgl: 
+  :mean: 31.010800189516
+  :deviation: 2.2833620578766
+Kaliso: 
+  :mean: 29.849935921204
+  :deviation: 1.7098162449441
+rocknrofl: 
+  :mean: 31.79204285513
+  :deviation: 3.9032862782881
+Undertaker: 
+  :mean: 31.091334754894
+  :deviation: 1.1803642418044
+tadpol: 
+  :mean: 29.059268840363
+  :deviation: 1.5470068442081
+morphine: 
+  :mean: 29.19925680975
+  :deviation: 1.401823732772
+DrakeLord: 
+  :mean: 30.805215709806
+  :deviation: 2.0561390829044
+tekelili: 
+  :mean: 32.971082675756
+  :deviation: 1.1369367610854
+Garison: 
+  :mean: 26.244888313232
+  :deviation: 1.3216248740042
+sauron: 
+  :mean: 28.498247301007
+  :deviation: 1.2445473075891
+wieker: 
+  :mean: 26.200150798448
+  :deviation: 1.1704280930392
+Bear: 
+  :mean: 26.459513975616
+  :deviation: 1.6629868229732
+hugho: 
+  :mean: 31.32319508624
+  :deviation: 1.1799140914719
+yanchixia: 
+  :mean: 33.919682719671
+  :deviation: 1.3022617457857
+Shagal: 
+  :mean: 29.933249380785
+  :deviation: 1.1554938584711
+Royale: 
+  :mean: 27.151915904524
+  :deviation: 1.3590153940402
+"8877": 
+  :mean: 28.243913047269
+  :deviation: 1.336888683112
+Guile: 
+  :mean: 28.361197346017
+  :deviation: 1.5490132643637
+ano: 
+  :mean: 27.616701897302
+  :deviation: 1.4514947317411
+zdz: 
+  :mean: 27.246481119486
+  :deviation: 1.9422467361393
+toruneko: 
+  :mean: 29.718523667142
+  :deviation: 1.5433139473513
+NoPassRetrieval: 
+  :mean: 34.547518581927
+  :deviation: 1.5559432341228
+Jindo: 
+  :mean: 29.340858880728
+  :deviation: 1.2292318686927
+c4rLOs8: 
+  :mean: 32.245287514095
+  :deviation: 1.2724432230871
+chameleon_effect: 
+  :mean: 26.619651687747
+  :deviation: 1.4200336570237
+stem: 
+  :mean: 31.163102908094
+  :deviation: 1.4175342574019
+jacob: 
+  :mean: 28.592981544036
+  :deviation: 1.1732014349522
+xivarmy: 
+  :mean: 28.584621189556
+  :deviation: 1.9257208503429
+Caphriel: 
+  :mean: 29.804371879424
+  :deviation: 2.785905682614
+Oh_Hi: 
+  :mean: 29.220537110011
+  :deviation: 1.248902835586
+Francis: 
+  :mean: 27.34220238506
+  :deviation: 2.0144354985257
+RainbowColors: 
+  :mean: 29.073217423369
+  :deviation: 2.2984295995465
+alda: 
+  :mean: 29.061839530952
+  :deviation: 1.1600197290829
+Mr_Incognito: 
+  :mean: 28.677264329091
+  :deviation: 2.6918593719045
+Nameless_Terror: 
+  :mean: 26.709739947472
+  :deviation: 1.6225393878734
+Wif-Gnizla: 
+  :mean: 28.933437835236
+  :deviation: 1.240550691107
+Cackfiend: 
+  :mean: 36.256693511684
+  :deviation: 1.2030512164541
+toDIEisGAIN: 
+  :mean: 26.789692621238
+  :deviation: 1.2059004070478
+valikan_cz: 
+  :mean: 26.305311677281
+  :deviation: 1.8378000426678
+Sombra: 
+  :mean: 28.337753811523
+  :deviation: 1.4629297680151
+PapaBlues: 
+  :mean: 27.120876298457
+  :deviation: 1.2477577966467
+hugeowl: 
+  :mean: 25.288364849602
+  :deviation: 1.7491474231379
+vandal: 
+  :mean: 32.047835900073
+  :deviation: 1.1856928551269
+Grumph: 
+  :mean: 33.174730614014
+  :deviation: 2.0015053573441
+Bast: 
+  :mean: 31.380835737838
+  :deviation: 1.3074078535122
+tsr: 
+  :mean: 25.921238249603
+  :deviation: 1.317967615918
+krotop: 
+  :mean: 31.461369066774
+  :deviation: 1.4515572838548
+Gollum: 
+  :mean: 34.972605633871
+  :deviation: 1.3504747175035
+Shachi: 
+  :mean: 31.099988217855
+  :deviation: 1.1955874557257
+Vercingetorige: 
+  :mean: 28.268964005607
+  :deviation: 1.6740330965964
+Distracted: 
+  :mean: 32.78483464121
+  :deviation: 3.9812812075193
+Death: 
+  :mean: 26.284218019828
+  :deviation: 1.1805289421867
+suiren: 
+  :mean: 28.818392853863
+  :deviation: 1.2793747699658
+species_8472: 
+  :mean: 41.814122751315
+  :deviation: 2.8792008501382
+Armagedon: 
+  :mean: 37.868236380867
+  :deviation: 3.4918073308993
+siddh: 
+  :mean: 28.130230916223
+  :deviation: 1.1823078189233
+tiboloid: 
+  :mean: 29.097691158008
+  :deviation: 1.1765266928539
+Monster: 
+  :mean: 27.654158226388
+  :deviation: 1.9328137959306
+TL: 
+  :mean: 33.318705484413
+  :deviation: 1.1995101563955
+Glouk: 
+  :mean: 30.685766731213
+  :deviation: 1.1840385320149
+Zatoichi: 
+  :mean: 26.034812208164
+  :deviation: 1.5157985403458
+Tahartagl: 
+  :mean: 30.24427290716
+  :deviation: 2.0681876177148
+LeGeR: 
+  :mean: 29.680005427274
+  :deviation: 1.8954500233439
+nunswithguns: 
+  :mean: 30.046137791801
+  :deviation: 1.1370536444231
+hiddin: 
+  :mean: 24.455119104676
+  :deviation: 1.1795066057959
+mr_moose: 
+  :mean: 37.756249847307
+  :deviation: 2.8543332007904
+Radar: 
+  :mean: 24.903457809427
+  :deviation: 1.4316137061891
+Gallifax: 
+  :mean: 26.422965494366
+  :deviation: 1.1835864891762
+hogar: 
+  :mean: 33.063624478478
+  :deviation: 1.2836058734474
+Exper: 
+  :mean: 28.274249818984
+  :deviation: 1.3103491553189
+Burp: 
+  :mean: 26.161066585798
+  :deviation: 1.2035099665033
+lo_l_ol: 
+  :mean: 26.403308262754
+  :deviation: 1.9982675023055
+Swift: 
+  :mean: 30.443354972709
+  :deviation: 1.2398688330468
+coori: 
+  :mean: 25.647631416869
+  :deviation: 1.3346177341359
+DwarvishRhapsody: 
+  :mean: 29.256201102207
+  :deviation: 2.2233256835421
+gonssal: 
+  :mean: 29.157111606038
+  :deviation: 1.2414039966074
+Nordmann: 
+  :mean: 29.082710856294
+  :deviation: 1.1352874108817
+_SanGuiS_: 
+  :mean: 26.583408663438
+  :deviation: 1.7981807719197
+Spelp: 
+  :mean: 29.048251836954
+  :deviation: 1.1959710808473
+Balanceguardian: 
+  :mean: 27.96592650548
+  :deviation: 1.157426474529
+winddog: 
+  :mean: 31.766593614566
+  :deviation: 1.1830285909422
+Jann: 
+  :mean: 29.975532809017
+  :deviation: 1.1847746684727
+uio: 
+  :mean: 26.466457714544
+  :deviation: 1.1967118764769
+Dauntless: 
+  :mean: 34.103501747317
+  :deviation: 1.1999196717939
+rebellofhell: 
+  :mean: 30.58323248122
+  :deviation: 1.1786457414827
+TDW_Florent: 
+  :mean: 30.967723222736
+  :deviation: 1.4414163229127
+Sweet: 
+  :mean: 31.707749056549
+  :deviation: 1.2474893322532
+skb: 
+  :mean: 26.625519556613
+  :deviation: 1.1939444580636
+Pseudonym: 
+  :mean: 26.413467915419
+  :deviation: 1.6606598085994
+Zenfur: 
+  :mean: 26.844911541281
+  :deviation: 1.8772162641105
+zxa: 
+  :mean: 25.508014724162
+  :deviation: 1.370153185171
+Demogorgon: 
+  :mean: 34.002838567978
+  :deviation: 1.1332196358193
+charnel: 
+  :mean: 30.951565658247
+  :deviation: 1.2293568558841
+Fosprey: 
+  :mean: 32.129688312277
+  :deviation: 1.2219534678839
+smeeds: 
+  :mean: 27.667442705532
+  :deviation: 1.2504860960647
+hellboy: 
+  :mean: 28.826244176612
+  :deviation: 1.1561140433359
+governor: 
+  :mean: 29.58819428561
+  :deviation: 1.8358037066704
+AssassinT90: 
+  :mean: 28.864670489862
+  :deviation: 1.1761328020018
+Colossi: 
+  :mean: 27.625258908906
+  :deviation: 1.2230153636117
+WIF_Luigit: 
+  :mean: 28.037794153052
+  :deviation: 1.2209667961081
+Computer_Player: 
+  :mean: 25.575763124305
+  :deviation: 1.1764105055049
+freesole: 
+  :mean: 25.483664450017
+  :deviation: 1.1783618918535
+Kral: 
+  :mean: 27.489816413598
+  :deviation: 1.1508173752939
+Danniel_BR: 
+  :mean: 28.023289205079
+  :deviation: 1.1577310501057
+creepylich: 
+  :mean: 26.008978898802
+  :deviation: 1.1768292038173
+Kira1: 
+  :mean: 31.795945477381
+  :deviation: 1.1271291575776
+oesis: 
+  :mean: 31.834036583973
+  :deviation: 1.1676849868587
+IronWill: 
+  :mean: 31.378375865585
+  :deviation: 2.7619354347724
+cp9: 
+  :mean: 31.95713228793
+  :deviation: 2.144423981146
+Orange_Dude: 
+  :mean: 29.742775408316
+  :deviation: 1.1722881740415
+NarajinX: 
+  :mean: 34.398816340605
+  :deviation: 1.2752828527052
+UltraBerserker: 
+  :mean: 27.335864394097
+  :deviation: 1.2612649146298
+Teuros: 
+  :mean: 27.324858907197
+  :deviation: 2.0843926585618
+sidzej: 
+  :mean: 34.400541446162
+  :deviation: 2.2952686246659
+FishMonger: 
+  :mean: 32.826470168797
+  :deviation: 2.1922119863759
+Scatha: 
+  :mean: 30.681522726402
+  :deviation: 1.3078968780171
+zahni: 
+  :mean: 28.320730062477
+  :deviation: 1.1884694852377
+Pagan: 
+  :mean: 34.008919287645
+  :deviation: 1.1544061908898
+Michaelmax: 
+  :mean: 31.600589934739
+  :deviation: 1.245478138372
+Kane0: 
+  :mean: 29.102958874793
+  :deviation: 1.1862731546927
+Soliton: 
+  :mean: 33.589266113701
+  :deviation: 1.5950422855771
+Aca: 
+  :mean: 25.907442219659
+  :deviation: 1.1982106534682
+peace: 
+  :mean: 38.131015829468
+  :deviation: 2.4478344532676
+Trend: 
+  :mean: 24.299503152867
+  :deviation: 1.2772159353764
+Henrythe12th: 
+  :mean: 26.036438712982
+  :deviation: 1.1846932442842
+TheChosenOne: 
+  :mean: 26.198422760295
+  :deviation: 1.2469435820154
+Asrai: 
+  :mean: 25.759248934178
+  :deviation: 1.5224115420904
+Xeus: 
+  :mean: 30.358274088211
+  :deviation: 3.4210189214553
+plk2: 
+  :mean: 33.502123791643
+  :deviation: 1.1216158552874
+Zarak: 
+  :mean: 32.02963877595
+  :deviation: 1.1839456475912
+Lucky: 
+  :mean: 33.29762856674
+  :deviation: 1.2794772946102
+Aragorn: 
+  :mean: 27.676494688506
+  :deviation: 1.276106541852
+Dreadnough: 
+  :mean: 30.324378256146
+  :deviation: 1.1849616091516
+Miszcz: 
+  :mean: 26.95324793263
+  :deviation: 1.1771541813476
+Eskon: 
+  :mean: 28.1669144707
+  :deviation: 1.304891963387
+BubkaBog: 
+  :mean: 24.272779780427
+  :deviation: 1.1863120955001
+Bonobo: 
+  :mean: 31.988500694798
+  :deviation: 1.1569137779074
+eyerouge: 
+  :mean: 24.725737885221
+  :deviation: 1.4826467215741
+Velensk: 
+  :mean: 31.252997449021
+  :deviation: 1.3203743353702
+Marechal: 
+  :mean: 26.021406894354
+  :deviation: 1.8330087394471
+culex: 
+  :mean: 27.476080095862
+  :deviation: 1.7487075843173
+disabled: 
+  :mean: 27.060449874647
+  :deviation: 2.2084286402597
+Frankenstein: 
+  :mean: 34.001118800218
+  :deviation: 1.5579229076339
+Tondo: 
+  :mean: 29.906989009934
+  :deviation: 1.1706011950648
+fenix: 
+  :mean: 27.120843951601
+  :deviation: 1.297140900947
+khorne-flakes: 
+  :mean: 28.074297905334
+  :deviation: 1.1452872194552
+marico: 
+  :mean: 27.14496908122
+  :deviation: 1.2285192509557
+py6aka: 
+  :mean: 29.803157618247
+  :deviation: 1.2686799153385
+Savannah: 
+  :mean: 30.539207661038
+  :deviation: 1.3249411892368
+Wumtog: 
+  :mean: 30.217755111911
+  :deviation: 1.6199870404941
+elido: 
+  :mean: 32.871763982777
+  :deviation: 1.168667133319
+LuckyStar: 
+  :mean: 32.703607109819
+  :deviation: 1.7737750279752
+Huumy: 
+  :mean: 31.882582205651
+  :deviation: 1.1695388566397
+thefish: 
+  :mean: 31.147598052842
+  :deviation: 1.1444073735659
+jake_mind: 
+  :mean: 25.782282314071
+  :deviation: 1.3294710548981
+xiaomin: 
+  :mean: 24.671773934379
+  :deviation: 1.5561971589676
+Secret_Squirrel: 
+  :mean: 27.036558075507
+  :deviation: 2.0445883120948
+The_Scarecrow: 
+  :mean: 28.580676874775
+  :deviation: 1.552842997906
+atly: 
+  :mean: 28.412161442201
+  :deviation: 1.163396887942
+Inteliteknia: 
+  :mean: 24.307384762039
+  :deviation: 1.2204516543234
+Ma9us: 
+  :mean: 28.503703712471
+  :deviation: 2.3698037624083
+buz: 
+  :mean: 27.936318733747
+  :deviation: 1.661892216068
+ukognos: 
+  :mean: 29.103508243428
+  :deviation: 2.9474434617516
+Ansengrinth: 
+  :mean: 26.485024649122
+  :deviation: 1.2138532431659
+Mint: 
+  :mean: 28.065663106206
+  :deviation: 1.1558093934847
+Kanapka: 
+  :mean: 27.250822700137
+  :deviation: 1.3922132413374
+AnimaVilis: 
+  :mean: 31.733162613513
+  :deviation: 1.900481283715
+Insinuator: 
+  :mean: 28.150323063737
+  :deviation: 1.2571633875192
+Pelopidas: 
+  :mean: 31.659409464196
+  :deviation: 1.2176272410467
+soul_steven: 
+  :mean: 33.381087979362
+  :deviation: 1.2635344560454
+Rene: 
+  :mean: 30.757718994476
+  :deviation: 1.3921628355774
+gons: 
+  :mean: 30.224991536344
+  :deviation: 2.2710274419476
+Quetzalcoatl: 
+  :mean: 31.888348454633
+  :deviation: 1.2597512886814
+Chris7mas: 
+  :mean: 24.245321339333
+  :deviation: 1.2086423451071
+Martini: 
+  :mean: 30.327777671936
+  :deviation: 2.9321794654303
+razfaz: 
+  :mean: 26.511111061212
+  :deviation: 1.1852479567901
+alpha: 
+  :mean: 32.11006472401
+  :deviation: 1.6202166069989
+Greep: 
+  :mean: 25.969524825101
+  :deviation: 1.3338713919097
+Limabean: 
+  :mean: 27.767675128302
+  :deviation: 2.0914735701062
+Suvorov: 
+  :mean: 31.809067831416
+  :deviation: 1.219144924594
+Pandemonium: 
+  :mean: 28.053173139905
+  :deviation: 1.2597820418964
+Coriolan: 
+  :mean: 30.091906621227
+  :deviation: 1.2288343945259
+Pudels_Kern: 
+  :mean: 30.351392663586
+  :deviation: 2.8553818793736
+Spooky: 
+  :mean: 27.078847800172
+  :deviation: 1.2223457042228
+Rembrandt: 
+  :mean: 29.580895529532
+  :deviation: 1.2449000214604
+chess_master_2013: 
+  :mean: 35.31639165772
+  :deviation: 2.4891270863025
+arbu: 
+  :mean: 31.519178946185
+  :deviation: 1.629777265372
+Faerieman: 
+  :mean: 29.773308814218
+  :deviation: 1.7011749829489
+milwac: 
+  :mean: 27.163697596329
+  :deviation: 1.1769734256144
+Zilo: 
+  :mean: 28.884408381162
+  :deviation: 1.2011878820412
+GEO: 
+  :mean: 27.282732886019
+  :deviation: 1.2844327811649
+Pionsix: 
+  :mean: 29.973345547829
+  :deviation: 1.1937503340883
+Boron1987: 
+  :mean: 29.156038717226
+  :deviation: 1.7486765020906
+anakayub: 
+  :mean: 31.788782412393
+  :deviation: 2.2244883228526
+KimJongCured: 
+  :mean: 26.632498531362
+  :deviation: 1.530763947206
+tintin: 
+  :mean: 30.157666658128
+  :deviation: 2.362191496259
+Janitor: 
+  :mean: 32.136494007658
+  :deviation: 1.1777631307252
+Haldiel: 
+  :mean: 29.941493092653
+  :deviation: 1.1676591626907
+grubsteak: 
+  :mean: 27.323160049842
+  :deviation: 2.115086074176
+GodOfWar: 
+  :mean: 31.08607982269
+  :deviation: 2.158780435878
+Vlad_III_Draculea: 
+  :mean: 31.182962316275
+  :deviation: 1.1219910095884
+dartboy: 
+  :mean: 29.459237058117
+  :deviation: 2.6579580928407
+pinkdwarf: 
+  :mean: 23.899738678239
+  :deviation: 1.2353370707892
+Rudanar_Firmus: 
+  :mean: 29.794767263261
+  :deviation: 1.3684508549817
+orran: 
+  :mean: 31.058720942051
+  :deviation: 2.4475880989955
+leocrotta: 
+  :mean: 34.713944138421
+  :deviation: 1.1873911727486
+Swiftfingers: 
+  :mean: 30.522410999033
+  :deviation: 3.078621371662
+Veliq: 
+  :mean: 27.416614149344
+  :deviation: 1.3543204229192
+Kolbur: 
+  :mean: 35.392941704569
+  :deviation: 1.1850885144905
+Diggy: 
+  :mean: 32.512306554493
+  :deviation: 1.1769863544895
+a_noob: 
+  :mean: 33.258529329046
+  :deviation: 2.4361343208027
+Friese: 
+  :mean: 23.924690427897
+  :deviation: 1.2633167050976
+Pietro: 
+  :mean: 29.88948430318
+  :deviation: 1.3343588733582
+Fetter: 
+  :mean: 24.507606183875
+  :deviation: 1.289099325246
+frodo42: 
+  :mean: 26.266457743613
+  :deviation: 1.1651213888913
+SpankyHam: 
+  :mean: 31.240009394354
+  :deviation: 2.4386555437762
+KalenzZ: 
+  :mean: 29.682698574254
+  :deviation: 1.5830009006576
+Bomber_Jack: 
+  :mean: 31.276861664854
+  :deviation: 3.1389688620731
+Greywolf: 
+  :mean: 26.533508779326
+  :deviation: 1.9278664662183
+Tactical: 
+  :mean: 24.431438836116
+  :deviation: 1.4480570649383
+Jah: 
+  :mean: 24.275028177723
+  :deviation: 1.1885453572771
+Horus: 
+  :mean: 29.595583103607
+  :deviation: 1.1859934304054
+moloch: 
+  :mean: 23.825733761825
+  :deviation: 1.1996073592992
+salt: 
+  :mean: 24.383736159812
+  :deviation: 1.4511138240751
+widowmaker80: 
+  :mean: 30.825945627558
+  :deviation: 1.1943874608312
+noOne: 
+  :mean: 32.025249121177
+  :deviation: 1.3547216831667
+Darth_Wesnoth: 
+  :mean: 28.502007048518
+  :deviation: 1.473405036017
+Robin_Hood: 
+  :mean: 26.347171515332
+  :deviation: 2.0219886241313
+dr_snuggles: 
+  :mean: 26.954024608583
+  :deviation: 2.0847016073255
+RiceMuncher: 
+  :mean: 29.724467348444
+  :deviation: 1.1531181942131
+ArtemisX: 
+  :mean: 31.102910644245
+  :deviation: 1.268872028831
+KnightKunibert: 
+  :mean: 25.446312835178
+  :deviation: 1.1922406258932
+nicotine: 
+  :mean: 27.02868372107
+  :deviation: 2.0503514978361
+MasterDerf: 
+  :mean: 28.110417690895
+  :deviation: 1.204118761267
+Wintermute: 
+  :mean: 35.885651878244
+  :deviation: 1.2465625698256
+Kalis: 
+  :mean: 30.685895389323
+  :deviation: 1.8617308466397
+ezysquire: 
+  :mean: 31.776742306076
+  :deviation: 1.8601808966023
+ReNoM: 
+  :mean: 26.450919265862
+  :deviation: 1.1701536037309
+ParadiseCity: 
+  :mean: 29.950447939192
+  :deviation: 1.1592609317506
+Slarge: 
+  :mean: 27.275332023139
+  :deviation: 1.9897480508009
+kamikaze: 
+  :mean: 32.823435548014
+  :deviation: 1.328206383296
+tes: 
+  :mean: 25.232650609025
+  :deviation: 1.5613415872791
+Druid: 
+  :mean: 29.178659751929
+  :deviation: 1.193282060745
+Kikohil: 
+  :mean: 28.116266130616
+  :deviation: 1.1773044181435
+tnp: 
+  :mean: 30.602338411678
+  :deviation: 1.2142333552434
+Zorro: 
+  :mean: 30.424371681779
+  :deviation: 1.1853738992821
+Celador: 
+  :mean: 25.827673790785
+  :deviation: 1.8333278020865
+SillySod: 
+  :mean: 28.853493577921
+  :deviation: 1.4977162728947
+justanothernoob: 
+  :mean: 30.022519493866
+  :deviation: 1.9570348313541
+tom030890: 
+  :mean: 25.847674113127
+  :deviation: 1.6050824178794
+Ichorid: 
+  :mean: 31.303812740825
+  :deviation: 1.2071464868057
+linos: 
+  :mean: 31.163517323775
+  :deviation: 1.8031671381406
+infinity3: 
+  :mean: 28.186322449854
+  :deviation: 1.179482537798
+hu12: 
+  :mean: 32.786805676469
+  :deviation: 1.8302137932761
+Fanjo: 
+  :mean: 31.275846531416
+  :deviation: 1.2249191824189
+zako: 
+  :mean: 32.909342223105
+  :deviation: 1.285945643548
+rick: 
+  :mean: 34.225040854426
+  :deviation: 3.1337621773736
+Gauteamus: 
+  :mean: 24.545520099351
+  :deviation: 1.5049137547404
+Reqinek: 
+  :mean: 30.796303156674
+  :deviation: 1.1475854579953
+wisefighter: 
+  :mean: 26.798426366468
+  :deviation: 1.574531685046
+theLittleHamster: 
+  :mean: 33.358621564813
+  :deviation: 1.204323527284
+SalsaRocoto: 
+  :mean: 30.02507170717
+  :deviation: 1.2696149936147
+Suerte: 
+  :mean: 25.254998291798
+  :deviation: 1.2032278886372
+Xplorer: 
+  :mean: 27.105181848613
+  :deviation: 1.1633374963768
+ElvenKing: 
+  :mean: 27.861995040693
+  :deviation: 1.1544983945103
+Lemon: 
+  :mean: 26.469512681406
+  :deviation: 1.8145892749205
+Oook: 
+  :mean: 32.387123846716
+  :deviation: 1.1731056450575
+kubi696: 
+  :mean: 26.962049390117
+  :deviation: 1.7458408061311
+Tesafilmchen: 
+  :mean: 27.077895256176
+  :deviation: 1.1906215387985
+Mokujin: 
+  :mean: 32.115251146991
+  :deviation: 1.7021293867092
+Skrim: 
+  :mean: 30.695929811546
+  :deviation: 1.3008453268238
+Vandarr: 
+  :mean: 27.431102885271
+  :deviation: 1.1981789648647
+Kriegarsch: 
+  :mean: 27.208091390421
+  :deviation: 1.5124397239239
+szdik570: 
+  :mean: 28.008180225165
+  :deviation: 1.1728495322393
+ced: 
+  :mean: 25.498638982914
+  :deviation: 1.3568769327886
+Ondrew: 
+  :mean: 27.40231853858
+  :deviation: 1.1732993553697
+Yogibear: 
+  :mean: 30.248736296569
+  :deviation: 1.2217305281853
+stop_chemtrails: 
+  :mean: 28.383165185256
+  :deviation: 1.1686540334484
+silent: 
+  :mean: 31.264985750999
+  :deviation: 1.1651294078811
+Just_end_turn: 
+  :mean: 29.433951629031
+  :deviation: 1.2151453225253
+The_Black_Sword: 
+  :mean: 35.23257799198
+  :deviation: 1.189320862937
+Arthas: 
+  :mean: 24.888788457977
+  :deviation: 1.2512973903314
+windowmaker: 
+  :mean: 26.686860240304
+  :deviation: 1.3640319450958
+cumulus_g: 
+  :mean: 27.402310861265
+  :deviation: 1.9793914110965
+Shotgun_Crocodile: 
+  :mean: 27.700162525624
+  :deviation: 1.733763888093
+ekki: 
+  :mean: 26.426791840233
+  :deviation: 1.6452889442449
+dragonlx: 
+  :mean: 29.317898307231
+  :deviation: 1.1943960371884
+Honor: 
+  :mean: 31.373235378
+  :deviation: 1.1776089678257
+neki: 
+  :mean: 31.724477118562
+  :deviation: 1.1419953889207
+Cremember: 
+  :mean: 34.42867703957
+  :deviation: 1.1735146288726
+csarmi: 
+  :mean: 30.270272791489
+  :deviation: 1.2549260759387
+Semler: 
+  :mean: 33.272563067222
+  :deviation: 1.2254631072085
+Lord: 
+  :mean: 28.553023821195
+  :deviation: 1.1860642575992
+Goldilocks: 
+  :mean: 35.335434875724
+  :deviation: 1.2688467907627
+TheMasterOfBattle: 
+  :mean: 27.851292989967
+  :deviation: 1.8022229755267
+npc: 
+  :mean: 26.586825099266
+  :deviation: 1.4148831404468
+aramaki: 
+  :mean: 27.851694586398
+  :deviation: 1.2001454510313
+Fantri: 
+  :mean: 29.067647035864
+  :deviation: 1.182683163141
+redrum: 
+  :mean: 30.58286573958
+  :deviation: 2.1870621380521
+khiM: 
+  :mean: 28.318177072185
+  :deviation: 1.1540011200434
+Sakatukitukasa: 
+  :mean: 27.739534512586
+  :deviation: 1.3076127128307
+ok-go: 
+  :mean: 25.297139466379
+  :deviation: 1.6500999066763

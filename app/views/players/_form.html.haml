@@ -1,0 +1,92 @@
+- if @player.errors.any?
+  .alert.alert-error
+    %strong Meh... Things gone wrong...
+    %ul.reset-bottom
+      - for error in @player.errors.full_messages
+        %li= error
+
+= form_for @player do |f|
+
+  - if admin? and not @player.new_record?
+
+    .admin-checkbox
+      = f.label :admin do
+        = f.check_box :admin
+        Admin
+    .admin-checkbox
+      = f.label :banned do
+        = f.check_box :banned
+        Banned
+
+  %fieldset.well
+    = f.label :nick, 'Nick *'
+    - if @player.new_record?
+      = f.text_field :nick
+    - else
+      = f.text_field :nick, :disabled => true
+
+    = f.label :password
+    = f.password_field :password
+
+    = f.label :password_confirmation
+    = f.password_field :password_confirmation
+
+    - if @player.new_record?
+      = f.label :submited_code, 'Code *'
+      = f.text_field :submited_code
+      #code.help-block
+        Log into
+        = Ladder8::Application.config.wesnoth_version
+        mp lobby using nick you want to register and click
+        = link_to 'this link', code_path, :remote => true
+        to obtain registration code.
+
+  %fieldset.well
+    = f.label :avatar, 'Avatar *'
+    = f.select :avatar, Avatar.for_select, :include_blank => true
+    %span.help-inline Avatar is required
+
+    = f.label :background
+    = f.select :background, Background.for_select, :include_blank => true
+    %span.help-inline Use this portrait as yours profile background
+
+    = f.label :color
+    = f.select :color, Color.for_select, :include_blank => true
+    %span.help-inline Select colored version of avatar
+
+    = f.label :country, 'Country *'
+    = f.select :country, Country.for_select, :include_blank => true
+    %span.help-inline Country is optional
+
+    = f.label :timezone, 'Time Zone *'
+    = f.time_zone_select :timezone, nil, :include_blank => true
+    %span.help-inline Time Zone is required
+
+  %fieldset.well
+    = f.label :description
+    = f.text_area :description, :class => bootstrap_large_input, :rows => 8
+    %p.help-block
+      This is an extra text you can attach to your profile.
+      = link_to_textile
+      markup can be used in it.
+
+    %br/
+
+    = f.label :signature
+    = f.text_area :signature, :class => bootstrap_large_input, :rows => 2
+    %p.help-block
+      This signature will be displayed below yours comments.
+
+  .well.last
+    - if @player.new_record?
+      = f.label :import_rating, :class => 'checkbox' do
+        = f.check_box :import_rating
+        If avaiable import my rating from old ladder (You are highly encouraged to do this).
+      %p.help-block.padded-item
+        Read
+        = link_to 'Constraints', constraints_path
+        and
+        = link_to 'FAQ', faq_path
+        sections before joining. You really want to do this.
+
+    = f.submit :class => bootstrap_submit_classes

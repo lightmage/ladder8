@@ -1,0 +1,21 @@
+= bootstrap_page_header 'Report Game'
+= background_image
+
+= bootstrap_short_row do
+  - unless @game.errors.empty?
+    .alert.alert-error
+      %strong Game can not be processed as it...
+      %ul.reset-bottom
+        - for error in @game.public_errors
+          %li= error
+        - if has_only_private_errors?
+          %li seems to be broken
+
+  = form_tag games_path do
+    .well.last
+      = text_field_tag :replay, params[:replay], :autocomplete => 'off'
+      %span.help-inline
+        Search for other replays that may be valid in
+        = link_to_archive + '.'
+      %br/
+      = bootstrap_submit_tag 'Report'

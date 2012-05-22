@@ -1,0 +1,74 @@
+= bootstrap_page_header 'FAQ'
+= background_image
+
+= bootstrap_short_row do
+  %h4.padded-item What is the point in Ladder8?
+  .well
+    The main point is to improve ladder codebase so new features could be added easily.
+    %br/
+    Besides that new ladder comes with few long awaited features already built-in.
+
+  %h4.padded-item What are main features of Ladder8?
+  .well
+    Better rating system, support for 2v2 games, anti-cheater facilities,
+    %br/
+    extraction of basic game data and more of commentable content.
+    
+  %h4.padded-item What rating system Ladder8 uses?
+  .well
+    TrueSkill. If you are interested in details check out those links:
+    %ul
+      %li= link_to_microsoft_ts_page
+      %li= link_to_moserware_ts_page
+
+  %h4.padded-item So... I have to start from scrtach on new ladder?
+  .well
+    If you have old ladder account and your nickname is registered on forums your initial rating will
+    %br/
+    be calculated from snapshot of game history taken when Ladder8 was published. During sign
+    %br/
+    up you will be asked if you want to import it and if it will be higher than 20 it will be imported.
+
+  %h4.padded-item Will support for more game types will be added?
+  .well
+    Ladder8 already supports any possible game type. Just for now however only limited set of 1v1
+    %br/
+    and 2v2 maps is allowed. More maps and scenario types will be added in the future.
+
+  %h4.padded-item How can I report a game?
+  .well
+    Game has to be reported by winner or one of the winners (in case it is more than a 2p game).
+    %br/
+    It is important to know that game won't appear instantly on game history page as other
+    %br/
+    players have to confirm it (confirmation button can be found on game page) and in
+    %br/
+    case of any problems game can always be confirmed by admin.
+
+  %h4.padded-item How much time I have to confirm a game?
+  .well
+    After three days unconfirmed games will be automatically deleted by system.
+
+  %h4.padded-item Is Ladder8 asocciated in any way with official development of Wesonth?
+  .well
+    Nope it is not. It has nothing to do with offial forums, developers and such.
+
+  %h4.padded-item Is Ladder8 asocciated in any way with old ladder?
+  .well
+    Nope it is not. It also isn't its direct continuation.
+
+  %h4.padded-item Who are the Ladder8 admins?
+  .well
+    Currently:
+    - for admin in @admins
+      = player_link admin
+
+  %h4.padded-item I want to contribute code. Where are the sources?
+  .well
+    %ul
+      %li= link_to_gitorious
+    Ladder8 is written in Ruby and uses Rails framework.
+
+  %h4.padded-item Why it is called Ladder8?
+  .well
+    Because it is better than Ladder7 would be ;)

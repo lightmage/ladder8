@@ -1,0 +1,13 @@
+#modal-login.modal.fade{:style => none}
+  = form_tag login_path, :class => 'reset-bottom' do
+    .modal-header
+      = bootstrap_dismiss_modal
+      %h3 Log In
+    .modal-body
+      = previous_tag
+      = label_tag :nick_modal, 'Nick'
+      = text_field_tag :nick, params[:nick], :id => 'nick_modal'
+      = label_tag :password_modal, 'Password'
+      = password_field_tag :password, '', :id => 'password_modal'
+    .modal-footer
+      = bootstrap_submit_tag 'Log In'

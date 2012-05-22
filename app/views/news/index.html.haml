@@ -1,0 +1,30 @@
+= bootstrap_page_header 'Recent News'
+= background_image
+
+= bootstrap_short_row do
+  - if admin?
+    .well= create_news_button
+
+  - unless @news.empty?
+    - for news in @news
+      .well
+        %h2= news.title
+        %hr
+        = textile news.body
+        %hr
+        - unless news.comments.count.zero? or not current_player?
+          %i.icon-comment
+          Comments
+          %b= news.comments.count
+        %i.icon-time
+        Posted
+        %b= time_ago_in_words news.created_at
+        ago
+        - if current_player?
+          %i.icon-share
+          = link_to 'Show more', news
+    = will_paginate @news
+
+  - else
+    .alert.alert-info
+      There are no news yet.

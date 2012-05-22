@@ -1,0 +1,15 @@
+#modal-report.modal.fade{:style => none}
+  = form_tag games_path, :class => 'reset-bottom' do
+    .modal-header
+      = bootstrap_dismiss_modal
+      %h3 Report Game
+    .modal-body
+      = label_tag :replay_modal, 'Link to replay'
+      = text_field_tag :replay, params[:replay], :autocomplete => 'off', :id => 'replay_modal'
+      %p.help-block
+        %i.icon-exclamation-sign
+        Game has to be reported by one of the winners!
+        Search for replays in
+        = link_to_archive + '.'
+    .modal-footer
+      = bootstrap_submit_tag 'Report'

@@ -1,0 +1,78 @@
+= bootstrap_page_header @game.title
+= background_image
+
+= bootstrap_short_row do
+  .well
+    %i.icon-arrow-up
+    Won by
+    - for side in @game.winners
+      = player_link side.player
+    %br/
+    %i.icon-arrow-down
+    Lost by
+    - for side in @game.losers
+      = player_link side.player
+    %br/
+    %br/
+    %i.icon-time
+    Reported
+    %b= time_ago_in_words @game.created_at
+    ago on
+    %b= game_reported_date @game.created_at, :long_ordinal
+    %br/
+    %i.icon-picture
+    %b= @game.map.name
+    Turn
+    %b= @game.turns
+    %i.icon-download-alt
+    = link_to 'Replay', @game.replay
+    %br/
+    %i.icon-adjust
+    Era
+    %b= @game.era
+    %i.icon-exclamation-sign
+    Version
+    %b= @game.version
+
+  = bootstrap_game_header 'Sides', 'user'
+  = bootstrap_table do
+    - for side in @game.sides
+      %tr
+        %td= side.number
+        %td= side.team.name
+        %td= player_link side.player
+        %td
+          - if side.team.won?
+            %i.icon-arrow-up
+          - else
+            %i.icon-arrow-down
+          = link_to formatted_rating(side.rating), side.player
+        %td= side.faction
+        %td= side.leader
+        - if waiting_for_confirmation?
+          %td
+            - if can_confirm? side
+              = confirm_button side
+            - elsif side.confirmed?
+              %i.icon-ok
+            - else
+              %i.icon-minus
+
+  - if current_player?
+    = toggle_comments_header @game.comments.count
+    = comments_partial @game, true
+
+    = toggle_chat_header
+    #chat{:style => none}
+      = bootstrap_table true do
+        - for entry in @game.chat_entries
+          %tr
+            - case entry[:speaker]
+              - when 'server'
+                = server_message entry
+              - when Player
+                = player_message entry
+              - else
+                = observer_message entry
+  - else
+    = restricted_block

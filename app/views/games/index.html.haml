@@ -1,0 +1,37 @@
+= bootstrap_page_header_long 'Game History'
+= games_feed
+
+= render 'search'
+
+- unless @games.empty?
+  = bootstrap_table do
+    %tr
+      %th Reported
+      %th Game
+      %th Winners
+      %th Losers
+      %th Replay
+      %th Details
+    - for game in @games
+      %tr
+        %td
+          %span= game_reported_date game.created_at
+        %td
+          = game_table_name game
+        %td
+          - game.sides.each do |side|
+            = side_link side if side.team.won?
+        %td
+          - game.sides.each do |side|
+            = side_link side unless side.team.won?
+        %td
+          %i.icon-download-alt
+          = link_to 'Download', game.replay
+        %td
+          %i.icon-zoom-in
+          = link_to 'Show', game
+  = will_paginate @games
+
+- else
+  .alert.alert-info
+    No games were found.

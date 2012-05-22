@@ -1,0 +1,21 @@
+= bootstrap_page_header @news.title
+= background_image
+
+= bootstrap_short_row do
+  - if admin?
+    .well
+      = edit_news_button @news
+      = destory_news_button @news
+
+  .last.news.well
+    = textile @news.body
+    .author
+      Published by
+      = player_link @news.player
+      = time_ago_in_words @news.created_at
+      ago
+
+  - if current_player?
+    = comments_partial @news
+  - else
+    = restricted_block

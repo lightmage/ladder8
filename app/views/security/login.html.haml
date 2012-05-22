@@ -1,0 +1,19 @@
+= bootstrap_page_header 'Log In'
+= background_image
+
+= bootstrap_short_row do
+  - if @error
+    .alert.alert-error
+      %strong You can not log in as...
+      %ul.reset-bottom
+        %li= @error
+
+  = form_tag login_path do
+    .well
+      = previous_tag
+      = label_tag :nick
+      = text_field_tag :nick, params[:nick]
+      = label_tag :password
+      = password_field_tag :password
+    .well.last
+      = bootstrap_submit_tag 'Log In'
