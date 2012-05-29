@@ -2,6 +2,11 @@
 = background_image
 
 = bootstrap_short_row do
+  - unless @game.confirmed_cache?
+    .alert
+      This game is unconfirmed. It will be auto-deleted if all players won't confirm it within
+      = time_remaining_to_confirm + '.'
+
   .well
     %i.icon-arrow-up
     Won by

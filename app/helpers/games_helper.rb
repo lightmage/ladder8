@@ -64,6 +64,10 @@ module GamesHelper
     speaker.safe_concat message
   end
 
+  def time_remaining_to_confirm
+    distance_of_time_in_words @game.created_at + Ladder8::Application.config.auto_delete.days, Time.now
+  end
+
   def server_message entry
     content_tag :td, entry[:message], :class => 'server', :colspan => 2
   end
