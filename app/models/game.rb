@@ -16,7 +16,7 @@ class Game < ActiveRecord::Base
 
   default_scope order('games.updated_at DESC')
   scope :confirmed,   where('games.confirmed_cache = ?', true)
-  scope :old,         lambda {where 'games.created_at < ?', 3.days.ago}
+  scope :old,         lambda {where 'games.created_at < ?', Ladder8::Application.config.auto_delete.days.ago}
   scope :since,       lambda {|time| where 'games.created_at >= ?', time.days.ago}
   scope :unconfirmed, where('games.confirmed_cache = ?', false)
 
