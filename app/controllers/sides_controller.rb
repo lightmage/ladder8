@@ -1,9 +1,10 @@
 class SidesController < ApplicationController
   def update
     @side = Side.find params[:id]
+    @game = @side.team.game
 
     if authorized?
-      unless Game.has_confirmed? @side.team.game.replay
+      unless Game.has_confirmed? @game.replay
         flash[:notice] = 'Side has been successfully confirmed.'
         @side.confirm
       else
@@ -11,7 +12,7 @@ class SidesController < ApplicationController
       end
     end
 
-    redirect_to @side.team.game
+    redirect_to @game
   end
 
   private
