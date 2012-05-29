@@ -127,6 +127,10 @@ class Game < ActiveRecord::Base
   end
 
   class << self
+    def has_confirmed? link
+      !!(find_by_confirmed_cache_and_replay true, link)
+    end
+
     def report player, url
       url.strip!
 

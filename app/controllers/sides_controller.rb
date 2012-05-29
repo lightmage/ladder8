@@ -3,7 +3,12 @@ class SidesController < ApplicationController
     @side = Side.find params[:id]
 
     if authorized?
-      flash[:notice] = 'Side has been successfully confirmed.' if @side.confirm
+      unless Game.has_confirmed? @side.team.game.replay
+        flash[:notice] = 'Side has been successfully confirmed.'
+        @side.confirm
+      else
+        flash[:notice] = 'This game is already reported and it was confirmed by all players.'
+      end
     end
 
     redirect_to @side.team.game
