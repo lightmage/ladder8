@@ -4,7 +4,8 @@ class RatingsController < ApplicationController
 
     ratings  = [player.initial_rating.to_f]
     @ratings = player.sides.sorted.inject(ratings) do |array, side|
-      array << side.rating.to_f ; array
+      array << side.rating.to_f if side.rating
+      array
     end
   end
 end
