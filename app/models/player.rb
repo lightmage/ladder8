@@ -21,7 +21,7 @@ class Player < ActiveRecord::Base
   scope :before, lambda {|player| where 'rating > ? AND nick <> ?', player.rating, player.nick}
   scope :default_order, order('players.rating DESC, players.nick_parameterized')
   scope :from_country, lambda {|country| where :country => country}
-  scope :newcomers, limit(9).reorder('id DESC')
+  scope :newcomers, limit(6).reorder('id DESC')
   scope :ranked, group(column_list).joins(:games).where('players.banned = ? AND games.confirmed_cache = ?', false, true)
   default_scope default_order
 
