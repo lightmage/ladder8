@@ -14,7 +14,7 @@ class Game < ActiveRecord::Base
   has_many :teams,    :dependent => :destroy
   has_many :winners,  :through => :teams, :source => :sides, :conditions => {'teams.won' => true}
 
-  default_scope order('games.updated_at DESC')
+  default_scope order('games.created_at DESC')
   scope :confirmed,   where('games.confirmed_cache = ?', true)
   scope :old,         lambda {where 'games.created_at < ?', Ladder8::Application.config.auto_delete.days.ago}
   scope :since,       lambda {|time| where 'games.created_at >= ?', time.days.ago}
