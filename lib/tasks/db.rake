@@ -22,6 +22,13 @@ namespace :db do
     end
   end
 
+  desc 'Recalculates ratings of sides attached to confirmed games'
+  task :recalculate => :environment do
+    Game.find_in_batches do |games|
+      games.each {|g| g.update_ratings if g.confirmed_cache}
+    end
+  end
+
   private
 
   def game_teams
