@@ -70,9 +70,7 @@ class Game < ActiveRecord::Base
     ts_graph = Graph.new ts_teams, ts_results
     ts_graph.update_skills
 
-    ts_teams.flatten.each do |rating|
-      rating.apply
-    end
+    ts_graph.teams.flatten.each {|r| r.apply}
   end
 
   def winner= player
