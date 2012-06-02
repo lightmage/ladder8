@@ -17,6 +17,13 @@
     %i.icon-signal
     Rating
     %b= formatted_rating @player.rating
+    %i.icon-arrow-up
+    &mu;
+    %b= number_with_precision @player.mean
+    %i.icon-arrow-right
+    &sigma;
+    %b= number_with_precision @player.deviation
+    %br/
     %i.icon-star
     All
     %b= link_to formatted_rank(@player.general_rank), players_path
