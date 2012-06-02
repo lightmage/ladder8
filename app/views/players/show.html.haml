@@ -6,11 +6,6 @@
 = background_image @player.background_filename
 
 = bootstrap_short_row do
-  - if admin? or @player.ranked?
-    .padded-item
-      = player_games_button if @player.ranked?
-      = bootstrap_admin_link_button 'lock', 'Edit Player', edit_player_path(@player) if admin?
-
   .well
     %i.icon-signal
     Rating
@@ -24,6 +19,11 @@
     %i.icon-play-circle
     Games
     %b= link_to @player.games.confirmed.count, games_path('search[players]' => @player.nick)
+
+  - if admin? or @player.ranked?
+    .padded-item
+      = player_games_button if @player.ranked?
+      = bootstrap_admin_link_button 'lock', 'Edit Player', edit_player_path(@player) if admin?
 
   .well
     - if @player.country?
