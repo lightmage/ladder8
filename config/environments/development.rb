@@ -29,8 +29,11 @@ Ladder8::Application.configure do
   config.assets.compress = false
 
   # Expands the lines which load the assets
-  config.assets.debug = true
+  config.assets.debug = false
 
   # Do not validate registration tokens
   config.validate_code = false
+
+  # How its possible that this isn't disabled by default?
+  config.serve_static_assets = false
 end
