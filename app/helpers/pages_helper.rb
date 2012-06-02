@@ -1,6 +1,6 @@
 module PagesHelper
-  def link_to_gitorious
-    link = 'https://gitorious.org/wesnoth-ladder/'
+  def link_to_github
+    link = 'https://github.com/f6p/ladder8'
     link_to link, link
   end
 

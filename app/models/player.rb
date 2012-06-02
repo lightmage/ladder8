@@ -17,7 +17,7 @@ class Player < ActiveRecord::Base
 
   has_secure_password
 
-  scope :admins, where(:admin => true)
+  scope :admins, where(:admin => true).reorder(:nick)
   scope :before, lambda {|player| where 'rating > ? AND nick <> ?', player.rating, player.nick}
   scope :default_order, order('players.rating DESC, players.nick_parameterized')
   scope :from_country, lambda {|country| where :country => country}

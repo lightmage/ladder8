@@ -47,15 +47,13 @@
 
   %h4.padded-item How much time I have to confirm a game?
   .well
-    After three days unconfirmed games will be automatically deleted by system.
+    After
+    = pluralize Ladder8::Application.config.auto_delete, 'day'
+    unconfirmed games will be automatically deleted by system.
 
   %h4.padded-item Is Ladder8 asocciated in any way with official development of Wesonth?
   .well
     Nope it is not. It has nothing to do with offial forums, developers and such.
-
-  %h4.padded-item Is Ladder8 asocciated in any way with old ladder?
-  .well
-    Nope it is not. It also isn't its direct continuation.
 
   %h4.padded-item Who are the Ladder8 admins?
   .well
@@ -66,9 +64,5 @@
   %h4.padded-item I want to contribute code. Where are the sources?
   .well
     %ul
-      %li= link_to_gitorious
+      %li= link_to_github
     Ladder8 is written in Ruby and uses Rails framework.
-
-  %h4.padded-item Why it is called Ladder8?
-  .well
-    Because it is better than Ladder7 would be ;)
