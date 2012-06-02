@@ -19,8 +19,14 @@ $ ->
         line:
           marker:
             enabled: false
+            states:
+              hover:
+                enabled: true
+                lineWidth: 2
+                radius: 4
       series: [{color: '#0088cc'}]
       tooltip:
+        crosshairs: true
         formatter: ->
           '<b>Game:</b> ' + this.x + ' <b>Rating:</b> ' + this.y.toFixed(3)
       title:
