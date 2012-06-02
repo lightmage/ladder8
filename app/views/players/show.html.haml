@@ -44,19 +44,22 @@
     Last action
     %b= local_time(@player.updated_at.to_time).to_s :long_ordinal
 
-    - unless @player.games.unconfirmed.empty?
-      %br/
-      %br/
-      .unconfirmed-games
-        %i.icon-check
-        Games awaiting confirmation
-      %ol
-        - for game in @player.games.unconfirmed
-          %li
-            = link_to game, game
-            Players
-            - for player in game.players
-              = player_link player
+  - unless @player.games.unconfirmed.empty?
+    = bootstrap_game_header 'Unconfirmed games', 'check'
+    = bootstrap_table do
+      - for game in @player.games.unconfirmed
+        %tr
+          %td
+            = game_table_name game
+          %td
+            - game.sides.each do |side|
+              = side_link side, false if side.team.won?
+          %td
+            - game.sides.each do |side|
+              = side_link side, false unless side.team.won?
+          %td
+            %i.icon-zoom-in
+            = link_to 'Show', game
 
   - if @player.ranked?
     .well

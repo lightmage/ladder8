@@ -72,9 +72,11 @@ module GamesHelper
     content_tag :td, entry[:message], :class => 'server', :colspan => 2
   end
 
-  def side_link side
-    rating = formatted_rating side.rating
-    [player_link(side.player), content_tag(:span, rating), side.faction].join('&nbsp;').html_safe
+  def side_link side, include_rating = true
+    data = [player_link(side.player), side.faction]
+    data.insert 1, content_tag(:span, formatted_rating(side.rating)) if include_rating
+
+    data.join('&nbsp;').html_safe
   end
 
   def toggle_chat_header
