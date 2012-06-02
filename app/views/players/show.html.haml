@@ -3,6 +3,13 @@
     = avatar_for @player, true
     = content_for :title, @player
     = @player
+    - if @player.admin? or @player.banned?
+      %small
+        - if @player.admin?
+          %span.admin Admin
+        - if @player.banned?
+          %span.banned Banned
+
 = background_image @player.background_filename
 
 = bootstrap_short_row do
