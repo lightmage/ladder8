@@ -76,9 +76,10 @@ class Game < ActiveRecord::Base
 
   def winner= player
     side = sides.where(:player_id => player.id).first!
+    team = side.team
 
-    side.update_attribute :confirmed, true
-    side.team.update_attribute :won, true
+    team.sides.all.each {|s| s.update_attribute :confirmed, true}
+    team.update_attribute :won, true
   rescue
     raise SecurityError
   end
@@ -143,7 +144,10 @@ class Game < ActiveRecord::Base
 
           Game.transaction do
             game.save
-            game.winner = player if game.valid?
+            unless game.valid?
+              raise ActiveRecord::Rollback, 'invalid game'
+            end
+            game.winner = player
           end
 
           game
