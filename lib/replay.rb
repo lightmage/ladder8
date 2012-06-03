@@ -141,7 +141,7 @@ class Replay
   end
 
   def titleize string
-    string.to_s.strip.titleize.gsub(/\s+/, ' ').gsub(/ Of/, ' of').gsub(/ The/, ' the')
+    string.to_s.strip.titleize.gsub(/\s+/, ' ')
   end
 
   class << self
