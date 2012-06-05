@@ -5,7 +5,6 @@ require 'timeout'
 class Game < ActiveRecord::Base
   attr_accessible :chat, :era, :map, :rby, :replay, :title, :turns, :version
   attr_accessor   :game, :replay_nodes
-  attr_readonly   :replay
 
   belongs_to :map
   has_many :comments, :as => :commentable, :dependent => :destroy
@@ -24,7 +23,7 @@ class Game < ActiveRecord::Base
   VALID_ERAS = ['Era Default']
   #VALID_ERAS = ['Era Default', 'RBY No Mirror']
 
-  validate_on_create  :replay_is_unique, :replay_isnt_rmp, :sides_size_equals_players_size
+  validate :replay_is_unique, :replay_isnt_rmp, :sides_size_equals_players_size
   validates :era,     :inclusion  => {:in => VALID_ERAS}
   validates :replay,  :format => {:on => :create, :with => %r(http://replays\.wesnoth\.org/\d+\.\d+/\d{8}/.+\.gz)}
   validates :version, :format => {:with => %r(\d+.\d+)}
