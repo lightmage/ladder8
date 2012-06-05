@@ -20,7 +20,7 @@ maps_2p = [
     "Aethermaw", "Arcanclave Citadel", "Astral Port", "Caves of the Basilisk", "Crescent Lake",
     "Cynsaun Bettlefield", "Den of Onis", "Elensefar Courtyard", "Fallenstar Lake", "Hamlets",
     "Hornshark Island", "Howling Ghost Badlands", "Sablestone Delta", "Serpent Ford",
-    "Silverhead Crossing", "Sulla's Ruins", "Swamp Of Dread", "The Freelands",
+    "Silverhead Crossing", "Sulla's Ruins", "Swamp Of Dread", "The Freelands", "The Walls Of Pyrennis",
     "Thousand Stings Garrison", "Tombs of Kesorak",
     "Weldyn Channel"
 ].collect {|n| {:name => n, :slots => 2}}
