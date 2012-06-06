@@ -41,6 +41,7 @@
                 %li= link_to 'Log Out', logout_path
             %li.divider-vertical
     %section.container
+      = fork_link
       = render 'security/login' unless current_player?
       = render 'games/report' if current_player?
       - if content_for? :long_header

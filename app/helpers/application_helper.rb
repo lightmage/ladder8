@@ -24,6 +24,10 @@ module ApplicationHelper
     !!@current_player
   end
 
+  def fork_link
+    link_to image_tag('https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png', :alt => 'Fork me on Github', :style => 'position: absolute; top: 40px; right: 0; border: 0;'), 'https://github.com/f6p/ladder8'
+  end
+
   def icon name, white = false
     icon_name = "icon #{name}".parameterize
     icon_name << ' icon-white ' if white
