@@ -53,7 +53,7 @@ namespace :db do
       :rby     => [true, false].shuffle.first,
       :turns   => rand(30) + 10,
       :map     => random_map,
-      :era     => ['Default', 'RBY No Mirror'].shuffle.first,
+      :era     => Game.VALID_ERAS.shuffle.first,
       :replay  => "http://replays.wesnoth.org/#{wesnoth_version}/19700101/Game#{index}.gz",
       :title   => "Game#{index}",
       :version => wesnoth_version,
